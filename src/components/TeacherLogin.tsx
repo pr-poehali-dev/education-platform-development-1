@@ -47,7 +47,7 @@ export default function TeacherLogin({ onLogin }: TeacherLoginProps) {
             <Input
               id="password"
               type="password"
-              placeholder="••••••••"
+              placeholder="1234"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
